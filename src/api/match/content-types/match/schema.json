@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matches",
+  "info": {
+    "singularName": "match",
+    "pluralName": "matches",
+    "displayName": "match",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sport": {
+      "type": "string"
+    },
+    "niveau": {
+      "type": "string"
+    },
+    "championnat": {
+      "type": "string"
+    },
+    "domicile": {
+      "type": "string"
+    },
+    "exterieur": {
+      "type": "string"
+    },
+    "jour": {
+      "type": "string"
+    },
+    "heure": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "departement_dom": {
+      "type": "string"
+    },
+    "departement_ext": {
+      "type": "string"
+    },
+    "num_dep_dom": {
+      "type": "string"
+    },
+    "num_dep_ext": {
+      "type": "string"
+    }
+  }
+}
